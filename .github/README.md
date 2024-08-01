@@ -22,7 +22,7 @@ Well, messing around with SSH is not something I want to do to my servers. Addit
 Want to see how it looks yourself? I've deployed this repository to a Hetzner Cloud server which is just running Docker.
 
 ```
-ssh yeehaw.dev
+ssh -o 'PubkeyAuthentication no' -F /dev/null yeehaw.dev
 ```
 
 ## Requirements
